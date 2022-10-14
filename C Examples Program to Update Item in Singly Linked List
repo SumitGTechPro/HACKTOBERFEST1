@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 struct node {
    int data;
    struct node *next;
@@ -23,12 +22,7 @@ void insert(int data) {
 
 
    
-   // move to the end of the list
-   while(current->next!=NULL)
-      current = current->next;
-   
-   // Insert link at the end of the list
-   current->next = link; 
+
 }
 
 void display() {
