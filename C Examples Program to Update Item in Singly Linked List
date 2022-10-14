@@ -14,15 +14,6 @@ void insert(int data) {
    // Allocate memory for new node;
    struct node *link = (struct node*) malloc(sizeof(struct node));
 
-   link->data = data;
-   link->next = NULL;
-
-   // If head is empty, create new list
-   if(head==NULL) {
-      head = link;
-      return;
-   }
-
    current = head;
    
    // move to the end of the list
