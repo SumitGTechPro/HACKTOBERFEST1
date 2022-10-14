@@ -1,12 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <stdlib.h>
+
 struct node {
    int data;
    struct node *next;
 };
-
+struct node {
+   int data;
+   struct node *next;
+};
 struct node *head = NULL;
 struct node *current = NULL;
 
@@ -14,8 +15,12 @@ struct node *current = NULL;
 void insert(int data) {
    // Allocate memory for new node;
    struct node *link = (struct node*) malloc(sizeof(struct node));
+//Create Linked List
+void insert(int data) {
+   // Allocate memory for new node;
+   struct node *link = (struct node*) malloc(sizeof(struct node));
 
-   current = head;
+
    
 
 }
