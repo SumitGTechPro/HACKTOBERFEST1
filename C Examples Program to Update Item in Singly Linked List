@@ -16,12 +16,7 @@ void insert(int data) {
 
    current = head;
    
-   // move to the end of the list
-   while(current->next!=NULL)
-      current = current->next;
-   
-   // Insert link at the end of the list
-   current->next = link; 
+
 }
 
 void display() {
