@@ -21,7 +21,7 @@ void insert(int data) {
    // Allocate memory for new node;
    struct node *link = (struct node*) malloc(sizeof(struct node));
 
-   current = head;
+
    
    // move to the end of the list
    while(current->next!=NULL)
